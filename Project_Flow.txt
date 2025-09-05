@@ -1,11 +1,14 @@
 1. Create project template by executing template.py file
+
 2. Write the code on setup.py and pyproject.toml file to import local packages
    >> Find more about "setup.py and pyproject.toml" at crashcourse.txt
+
 3. Create a virtual env, activate it and install the requirements from requirements.txt
-   conda create -n vehicle python=3.10 -y
-   conda activate vehicle
+   conda create -n davakhane python=3.12 -y
+   conda activate davakhane
    add required modules to requirements.txt
    Do "pip install -r requirements.txt"
+
 4. Do a "pip list" on terminal to make sure you have local packages installed.
 
 ----------------------------------------------- MongoDB Setup -----------------------------------------------
