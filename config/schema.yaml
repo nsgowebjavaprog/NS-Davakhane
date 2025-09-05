@@ -1,0 +1,47 @@
+columns:
+  - Patient_ID: int
+  - Timestamp: object
+  - Age: int
+  - Gender: string
+  - Weight: float
+  - Height: float
+  - BMI: float
+  - Heart_Rate: float
+  - BP_Systolic: float
+  - BP_Diastolic: float
+  - SpO2: float
+  - Respiration_Rate: float
+  - Body_Temperature: float
+  - Blood_Glucose: float
+  - Activity_Level: int
+  - Sleep_Pattern: int
+
+numerical_columns:
+  - Patient_ID
+  - Age
+  - Weight
+  - Height
+  - BMI
+  - Heart_Rate
+  - BP_Systolic
+  - BP_Diastolic
+  - SpO2
+  - Respiration_Rate
+  - Body_Temperature
+  - Blood_Glucose
+  - Activity_Level
+  - Sleep_Pattern
+
+categorical_columns:
+  - Gender
+
+drop_columns:
+  - _id
+
+# for data transformation
+num_features:
+  - Age
+  - Activity_Level
+
+mm_columns:
+  - Height
